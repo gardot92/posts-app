@@ -1,0 +1,9 @@
+.post-list-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  & &__title {
+      flex-grow: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.comment-form {
+  & &__actions {
+    display: flex;
+    justify-content: flex-end;
+
+    & > * {
+      margin-left: 5px;
+    }
+  }
+}
